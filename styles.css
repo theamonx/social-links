@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('../assets/fonts/static/Inter-Regular.ttf')format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'myFont';
+    src: url('../assets/fonts/static/Inter-SemiBold.ttf')format(truetype);
+    font-weight: medium;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'myFont';
+    src: url('../assets/fonts/static/Inter-Bold.ttf')format(truetype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(0, 0%, 5%);
+    font-size: 14px;
+    font-family: myFont;
+    color: hsl(0, 0%, 100%);
+}
+
+.box {
+    /* background: hsl(0, 0%, 12%) */
+    background: hsl(0, 0%, 8%);
+}
+
+.card{
+    /* background:hsl(0, 0%, 20%); */
+    background: hsl(0, 0%, 12%);
+}
+
+.attribution a {
+    color:hsl(75, 94%, 57%);
+    text-decoration: none;
+}
+
+.primary{
+    color:hsl(75, 94%, 57%);
+
+}
+
+.greyclr{
+    background-color: hsl(0, 0%, 20%);
+}
+
+@media (max-width: 375px) {
+    .body{
+        width: 375px;
+    }
+    .box{
+        width: 375px ;
+        padding: 5rem 1.5rem;
+    }
+    .card{
+        padding: 0rem 1.5rem;
+        height: 580px;
+    }
+}
